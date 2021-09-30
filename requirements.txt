@@ -3,4 +3,3 @@ numpy
 streamlit
 plotly
 geopy
-dateutil
