@@ -4,7 +4,6 @@ import numpy as np
 import streamlit as st
 import plotly.express as px
 import os
-from PIL import Image
 import geopy
 import pickle
 from geopy.geocoders import Nominatim

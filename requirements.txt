@@ -2,7 +2,6 @@ pandas
 numpy
 streamlit
 plotly
-PIL
 geopy
 pickle
 dateutil
