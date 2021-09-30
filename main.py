@@ -8,7 +8,7 @@ import geopy
 from geopy.geocoders import Nominatim
 from dateutil.relativedelta import relativedelta
 
-st.set_page_config(page_title='PTAB DATA ACCESS')
+st.set_page_config(page_title='PTAB DATA ACCESS', page_icon='🍅')
 st.header('PTAB DATA ACCESS')
 st.subheader("Developed with AIFS and PTAB")
 st.write("Acknowledgements: This work is supported by AFRI Competitive Grant no. 2020-67021-32855/project accession no. 1024262 from the USDA National Institute of Food and Agriculture. This grant is being administered through AIFS: the AI Institute for Next Generation Food Systems. https://aifs.ucdavis.edu. Tomato data are from the Processing Tomato Advisory Board public database: http://www.ptab.org.")
