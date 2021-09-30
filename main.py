@@ -22,6 +22,8 @@ df = None
 with open ("dataframe.db", "rb") as infile:
   df = pickle.load(infile)
   infile.close()
+
+
 County = df['County'].unique().tolist()
 dtdf = df['datetime'].unique().tolist()
 date_selection = st.slider('Date',
